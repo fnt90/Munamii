@@ -88,4 +88,11 @@ Carrot cupcake photo by <a href="https://stocksnap.io/author/39383">Joseph Gonza
 ![Carrot cupcake](public/images/cupcake/cupcake-006.jpg)
 
 ### Miscellaneous Credits
+
+Fonts found at ffonts.net
+
+Quantum font credited to <a href="https://fontbundles.net/art-design">Art Design</a>
+
+Opificio Regular Rounded credited to <a href="https://www.monofonts.com">MonoFonts.com</a>
+
 MailChimp service used to create newsletter subscription and provided a customizable contact form linked to by the Contact page.
