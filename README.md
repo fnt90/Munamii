@@ -1,9 +1,11 @@
 # Munamii Cakery Website
-Text here
+This website project was created during the Frontend Development module in Software Development Academy, iteration 9.
 
 ## Project Notes
 
 This website project is to be made using HTML and CSS only. The client specifications are:
+
+\- Must work on both mobile phones and desktop displays
 
 \- Must have 4 pages: Home, About, Products, Contact
 
@@ -33,7 +35,7 @@ This project includes a 'public' folder for use with Firebase, containing the HT
 
 Within the 'public' folder are 'css' directory containing CSS files, 'fonts' directory containing two web font folders and 'images' directory containing website images.
 
-The 'images' directory contains two subdirectories, 'cupcake' and 'weddingcake' which contain the product images.
+The 'images' directory contains two subdirectories, 'cupcake' and 'weddingcake' which contain the cropped and resized product images. These directories each contain an 'originals' subdirectory containing the original unedited photos.
 
 ```
 .public
@@ -43,7 +45,9 @@ The 'images' directory contains two subdirectories, 'cupcake' and 'weddingcake' 
 │   └── Quantum-artdesign
 └── images 
     ├── cupcake
+    │   └── originals
     └── weddingcake
+        └── originals
 ```
 
 
@@ -55,6 +59,33 @@ Fiona Thompson
 
 Created between Mar 24-26 2021 for an assignment from Software Development Academy, iteration 9.
 ## Credits
-Munamii Cakery
+Munamii Cakery for original logo and all photos not listed below.
 
-Unsplash photos:
+### Photo credits:
+
+Oreo cupcake photo by <a href="https://unsplash.com/@tasikola_pl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aleksandra Tanasiienko</a> on <a href="https://unsplash.com/@tasikola_pl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+![Oreo cupcake](public/images/cupcake/cupcake-001.jpg)
+
+Galaxy cupcake photo by <a href="https://unsplash.com/@calavera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Calavera</a> on <a href="https://unsplash.com/@calavera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+![Galaxy cupcake](public/images/cupcake/cupcake-002.jpg)
+
+Rainbow cupcake photo by <a href="https://unsplash.com/@biglaughkitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Deva Williamson</a> on <a href="https://unsplash.com/s/photos/cupcake?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+![Rainbow cupcake](public/images/cupcake/cupcake-003.jpg)
+
+Butterscotch cupcake photo by <a href="https://unsplash.com/@oliviaht?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olivia Herlambang-Tham</a> on <a href="https://unsplash.com/@oliviaht?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+![Butterscotch cupcake](public/images/cupcake/cupcake-004.jpg)
+
+Chocolate cupcake photo by <a href="https://stocksnap.io/author/jesswaters">Jess Watters</a> from <a href="https://stocksnap.io">StockSnap</a>
+
+![Chocolate cupcake](public/images/cupcake/cupcake-005.jpg)
+
+Carrot cupcake photo by <a href="https://stocksnap.io/author/39383">Joseph Gonzalez</a> from <a href="https://stocksnap.io">StockSnap</a>
+
+![Carrot cupcake](public/images/cupcake/cupcake-006.jpg)
+
+### Miscellaneous Credits
+MailChimp service used to create newsletter subscription and provided a customizable contact form linked to by the Contact page.
