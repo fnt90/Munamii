@@ -15,7 +15,6 @@
 .product-box {
     display: block;
     text-align: right;
-    
 }
 
 .item-title {
@@ -26,7 +25,7 @@
 .item-desc {
     display: block;
     padding-top:8px;
-    padding-right: 10px;
+    padding-right: 12px;
     line-height: 1.35;
 }
 
@@ -35,10 +34,10 @@
         display: block;
         max-width: 400px;
         padding: 20px;
-        padding-bottom: 5px;
+        padding-bottom: 4px;
     }
     .product-box {
-        margin-bottom: 30px;
+        margin-bottom: 32px;
     }
 }
 
@@ -47,9 +46,9 @@
         max-width: 700px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 25px;
-        grid-row-gap: 25px;
-        padding: 25px;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+        padding: 24px;
     }
     .product-box {
         margin-bottom: 0px;

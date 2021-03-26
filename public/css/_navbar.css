@@ -1,39 +1,28 @@
-
 .navigation-menu {
     font-size: 24pt;
     font-family: 'Quantum-artdesign';
     text-transform: lowercase;
-    
 }
 
 ul {
     display: flex;
     list-style-type: none;
     margin: 0;
-    /*padding:5px;*/
     background-color: var(--color-pink);
-    /*overflow: hidden;*/
     position: fixed;
     top: 0;
     width: 100%;
     align-items: center;
 }
 
-
-
 li a, .dropbtn {
     display: inline-block;
     color:var(--color-lpink);
     text-decoration: none;
     float: none;
-
 }
 
-
 li a:hover, .dropdown:hover .dropbtn {
-    /*border-radius: 6px;
-    box-sizing: border-box;
-    background-color: white;*/
     color: white;
     text-decoration: underline dotted var(--color-lpink);
 }
@@ -46,8 +35,8 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: var(--color-lpink);
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     min-width: 160px;
     z-index: 1;
 }
@@ -75,34 +64,25 @@ li.dropdown {
 }
 
 @media (min-width: 1px) {
-    li {
-        /*float:inline-end;*/
-    }
-
     li a, .dropbtn {
-    padding-bottom: 16px; 
-    padding-left: 8px;
-    padding-right:8px;
-    margin-top: 10px;
-}
+        padding-bottom: 16px; 
+        padding-left: 8px;
+        padding-right:8px;
+        margin-top: 12px;
+    }
     ul {
         padding-inline-start: 1px;
         justify-content: center;
         overflow: hidden;
-
     }
 }
 
 @media (min-width: 600px) {
-    li {
-        /*float: left;*/
-    }
     li a, .dropbtn {
-    padding-bottom: 16px; 
-    padding-left: 18px;
-    padding-right:18px;
-}
-
+        padding-bottom: 16px; 
+        padding-left: 20px;
+        padding-right:20px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -110,7 +90,7 @@ li.dropdown {
         padding-inline-start: 40px;
         justify-content: left;
         overflow: visible;
-        padding-top: 10px;
+        padding-top: 12px;
     }
     li a, .dropbtn {
         margin-top: 0px;

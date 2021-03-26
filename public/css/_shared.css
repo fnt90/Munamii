@@ -3,39 +3,31 @@ body {
     font-family: 'Opificio-Regular-Rounded';
     background-color: var(--color-offwhite);
     margin: 0;
-
 }
+
 .content {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+
 h1 {
-    margin-top: 10px;
+    margin-top: 12px;
     letter-spacing: -1px;
 }
 
 h2 {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 h2 span {
-    margin-top: -65px;
-    padding-bottom: 65px;
+    margin-top: -64px;
+    padding-bottom: 64px;
     display:block;
 }
 
-.munamiilogotext {
-    color: var(--color-brown);
-    font-family: 'Opificio-Regular-Rounded';
-    font-size: 120pt;
-    letter-spacing: -15px;
-}
-
 .intro {
-    text-align: center;
-    /*padding: 8px;*/
-    
+    text-align: center; 
 }
 
 .intro a {
@@ -46,7 +38,7 @@ h2 span {
 }
 
 .intro a:hover {
-    border-radius: 6px;
+    border-radius: 8px;
     box-sizing: border-box;
     background-color: var(--color-pink);
     color: white;
@@ -73,7 +65,7 @@ p a {
 }
 
 p a:hover {
-    border-radius: 6px;
+    border-radius: 8px;
     box-sizing: border-box;
     background-color: var(--color-pink);
     color: white;
@@ -100,10 +92,8 @@ p a:hover {
 
 @media (min-width: 1px) {
     .intro {
-    
         margin-top:75px;
     }
-
     .content {
         max-width: 400px;
         padding-left: 20px;
@@ -115,12 +105,8 @@ p a:hover {
         margin-right: auto;
     }
 }
+
 @media (min-width: 600px) {
-    .intro {
-    
-        /*margin-top:70px;*/
-    }
-    
     .content {
         max-width: 700px;
         padding-left: 30px;
@@ -132,6 +118,7 @@ p a:hover {
         margin-right: auto;
     }
 }
+
 @media (min-width: 1024px) {
     .content {
     max-width: 1100px;

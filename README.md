@@ -1,6 +1,8 @@
 # Munamii Cakery Website
 This website project was created during the Frontend Development module in Software Development Academy, iteration 9.
 
+This website is hosted by Firebase, and can be visited at <a href="https://cupcakes-sda9.web.app">https://cupcakes-sda9.web.app</a>
+
 ## Project Notes
 
 This website project is to be made using HTML and CSS only. The client specifications are:
