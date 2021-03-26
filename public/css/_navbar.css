@@ -1,0 +1,118 @@
+
+.navigation-menu {
+    font-size: 24pt;
+    font-family: 'Quantum-artdesign';
+    text-transform: lowercase;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    /*padding:5px;*/
+    background-color: var(--color-pink);
+    /*overflow: hidden;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color:var(--color-lpink);
+    text-decoration: none;
+    float: none;
+
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+    /*border-radius: 6px;
+    box-sizing: border-box;
+    background-color: white;*/
+    color: white;
+    text-decoration: underline dotted var(--color-lpink);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: var(--color-lpink);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:var(--color-pink);
+    padding-top:4px;
+    padding-bottom:18px;
+    padding-left: 18px;
+    padding-right:18px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color:var(--color-lpink);
+    border-radius: 6px;
+    color: var(--color-pink);
+    text-decoration: underline dotted white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media (min-width: 1px) {
+    li {
+        /*float:inline-end;*/
+    }
+
+    li a, .dropbtn {
+    padding-bottom: 16px; 
+    padding-left: 8px;
+    padding-right:8px;
+    margin-top: 10px;
+}
+    ul {
+        padding-inline-start: 1px;
+        justify-content: center;
+        overflow: hidden;
+
+    }
+}
+
+@media (min-width: 600px) {
+    li {
+        /*float: left;*/
+    }
+    li a, .dropbtn {
+    padding-bottom: 16px; 
+    padding-left: 18px;
+    padding-right:18px;
+}
+
+}
+
+@media (min-width: 1024px) {
+    ul {
+        padding-inline-start: 40px;
+        justify-content: left;
+        overflow: visible;
+        padding-top: 10px;
+    }
+    li a, .dropbtn {
+        margin-top: 0px;
+    }
+}
